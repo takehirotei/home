@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>takehirotei</title>
+    <link rel="stylesheet" href="frontpage.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section id="main-content">
+        <div id="container-pfp" class="container-pfp">
+            <a href="https://www.youtube.com/@takehirotei"><img src="pfp.jpg" id="pfp" class="container-pfp"></a>
+            <figcaption class="container-pfp">Profile art by @HiroChair in Twitter</figcaption>
+        </div>
+        <div id="container-name-logo">
+            <!-- <img src=""> -->
+            <h1>takehirotei</h1>
+        </div>
+        <div id="container-caption">
+            <h2>Hello there, my name is takehirotei and I do music stuffs</h2>
+        </div>
+        <div id="container-social">
+            <a href="https://www.youtube.com/@takehirotei"><ion-icon name="logo-youtube"></ion-icon></a>
+            <a href="https://x.com/takehirotei"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://soundcloud.com/takehirotei"><ion-icon name="logo-soundcloud"></ion-icon></a>
+        </div>
+        <div id="container-nav">
+            <a href="about.html"><h3 class="navigator">About</h3></a>
+            <a href="listofworks.html"><h3 class="navigator">Works</h3></a>
+            <a href=""><h3 class="navigator">Albums</h3></a>
+        </div>
+    </section>
+
+    <section class="music-player">
+        <h4 class="playing"><span class="song-name"></span></h4>
+        <div class="controls">
+        <button class="btn previous"><i class="ph-bold ph-skip-back"></i></button>
+        <button class="btn play-pause">
+            <i id="play-pause-icon" class="ph-bold ph-play"></i>
+        </button>
+        <button class="btn next"><i class="ph-bold ph-skip-forward"></i></button>
+        </div>
+
+        <div class="slider_container">
+            <i class="fa fa-volume-down"></i>
+             <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+             <i class="fa fa-volume-up"></i>
+        </div>
+          
+
+        
+
+    </section>
+
+    <script src="frontpage.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    </body>
+</html>

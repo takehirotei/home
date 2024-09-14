@@ -1,0 +1,92 @@
+* {
+    text-align: center;
+}
+
+body {
+    background: #fffb96;
+    /* background-image: url("images/hq720.jpg"); */
+}
+
+#pfp {
+    border-radius: 50%;
+}
+
+#container-pfp, #container-name-logo, #container-caption, #container-nav, #container-social  {
+    text-align: center;
+}
+
+#pfp {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 3vh;
+}
+
+h1 {
+    font-size: 8vh;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+#container-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 3px;
+}
+
+#container-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.navigator {
+    background-color: black;
+    color: white;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+}
+
+
+
+
+/* music player stuffs */
+
+.btn {
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn:hover {
+    color: rgb(0, 243, 0);
+  }
+  
+  .playing {
+    text-align: center;
+  }
